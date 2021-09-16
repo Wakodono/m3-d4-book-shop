@@ -21,7 +21,7 @@ window.onload = () => {
             (books) => `
               <div class="col-12 col-sm-6 col-md-3">
                   <div class="card">
-                      <img src="${books.img}" class="card-img-top" alt="...">
+                      <img src="${books.img}" class="card-img-top img-fluid w=100 object-fit: cover" alt="...">
                       <div class="card-body">
                       <h5 class="card-title">${books.title}</h5>
                       <p class="card-text">${books.price}</p>
